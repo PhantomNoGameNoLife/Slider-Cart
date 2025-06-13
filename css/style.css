@@ -79,8 +79,6 @@ img {
     background-image: linear-gradient(70deg, #DC422A, blue);
     position: absolute;
     z-index: -1;
-    border-radius: 20% 30% 80% 10%;
-    filter: blur(150px);
     top: 50%;
     left: 50%;
     transition: 1s;
@@ -93,6 +91,13 @@ img {
     -moz-transform: translate(-10%, -50%);
     -ms-transform: translate(-10%, -50%);
     -o-transform: translate(-10%, -50%);
+    filter: blur(150px);
+    -webkit-filter: blur(150px);
+    border-radius: 20% 30% 80% 10%;
+    -webkit-border-radius: 20% 30% 80% 10%;
+    -moz-border-radius: 20% 30% 80% 10%;
+    -ms-border-radius: 20% 30% 80% 10%;
+    -o-border-radius: 20% 30% 80% 10%;
 }
 
 .slider .list {
@@ -152,6 +157,10 @@ img {
     opacity: 1;
     pointer-events: auto;
     transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
 }
 
 .slider .list .item .intro .title {
@@ -266,35 +275,43 @@ img {
 /* next click */
 .slider.next .item:nth-child(1) {
     animation: transformFromPosition2 0.5s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition2 0.5s ease-in-out 1 forwards;
 }
 
 .slider.next .item:nth-child(2) {
     animation: transformFromPosition3 0.7s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition3 0.7s ease-in-out 1 forwards;
 }
 
 .slider.next .item:nth-child(3) {
     animation: transformFromPosition4 0.9s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition4 0.9s ease-in-out 1 forwards;
 }
 
 .slider.next .item:nth-child(4) {
     animation: transformFromPosition5 1.1s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition5 1.1s ease-in-out 1 forwards;
 }
 
 /* previous */
 .slider.prev .list .item:nth-child(2) {
     animation: transformFromPosition1 1.1s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition1 1.1s ease-in-out 1 forwards;
 }
 
 .slider.prev .list .item:nth-child(3) {
     animation: transformFromPosition2 0.9s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition2 0.9s ease-in-out 1 forwards;
 }
 
 .slider.prev .list .item:nth-child(4) {
     animation: transformFromPosition3 0.7s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition3 0.7s ease-in-out 1 forwards;
 }
 
 .slider.prev .list .item:nth-child(5) {
     animation: transformFromPosition4 0.5s ease-in-out 1 forwards;
+    -webkit-animation: transformFromPosition4 0.5s ease-in-out 1 forwards;
 }
 
 .slider .list .item .detail {
@@ -438,8 +455,12 @@ img {
 #next {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     border: 1px solid #5555;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 #back {
