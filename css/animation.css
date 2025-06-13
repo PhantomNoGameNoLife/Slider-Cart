@@ -1,0 +1,87 @@
+@keyframes showContent {
+    from {
+        filter: blur(10px);
+        -webkit-filter: blur(10px);
+        transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes transformFromPosition1 {
+    from {
+        opacity: var(--item1-opacity);
+        transform: var(--item1-transform);
+        -webkit-transform: var(--item1-transform);
+        -moz-transform: var(--item1-transform);
+        -ms-transform: var(--item1-transform);
+        -o-transform: var(--item1-transform);
+        filter: var(--item1-filter);
+        -webkit-filter: var(--item1-filter);
+    }
+}
+
+@keyframes transformFromPosition2 {
+    from {
+        opacity: var(--item2-opacity);
+        transform: var(--item2-transform);
+        -webkit-transform: var(--item2-transform);
+        -moz-transform: var(--item2-transform);
+        -ms-transform: var(--item2-transform);
+        -o-transform: var(--item2-transform);
+        filter: var(--item2-filter);
+        -webkit-filter: var(--item2-filter);
+    }
+}
+
+@keyframes transformFromPosition3 {
+    from {
+        opacity: var(--item3-opacity);
+        transform: var(--item3-transform);
+        -webkit-transform: var(--item3-transform);
+        -moz-transform: var(--item3-transform);
+        -ms-transform: var(--item3-transform);
+        -o-transform: var(--item3-transform);
+        filter: var(--item3-filter);
+        -webkit-filter: var(--item3-filter);
+    }
+}
+
+@keyframes transformFromPosition4 {
+    from {
+        opacity: var(--item4-opacity);
+        transform: var(--item4-transform);
+        -webkit-transform: var(--item4-transform);
+        -moz-transform: var(--item4-transform);
+        -ms-transform: var(--item4-transform);
+        -o-transform: var(--item4-transform);
+        filter: var(--item4-filter);
+        -webkit-filter: var(--item4-filter);
+    }
+}
+
+@keyframes transformFromPosition5 {
+    from {
+        opacity: var(--item5-opacity);
+        transform: var(--item5-transform);
+        -webkit-transform: var(--item5-transform);
+        -moz-transform: var(--item5-transform);
+        -ms-transform: var(--item5-transform);
+        -o-transform: var(--item5-transform);
+        filter: var(--item5-filter);
+        -webkit-filter: var(--item5-filter);
+    }
+}
