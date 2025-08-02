@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/.well-known/pki-validation/(.*)",
+      "destination": "/.well-known/pki-validation/$1"
+    }
+  ]
+}
